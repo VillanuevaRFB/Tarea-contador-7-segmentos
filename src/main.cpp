@@ -13,7 +13,7 @@ int main(void){
         unidades++;
         if(unidades>9){
             unidades=0;
-            decenas++; //incrementa las decenas si pas del 9
+            decenas++; //incrementa las decenas si pasa del 9
             if(decenas>9){
                 decenas=0; //reiniciar al pasar de 99
             }
